@@ -13,7 +13,8 @@
     "bootstrap": "ts-react-toolbox init",
     "lint": "ts-react-toolbox lint",
     "static": "ts-react-toolbox publish",
-    "format": "ts-react-toolbox format"
+    "format": "ts-react-toolbox format",
+    "prepublish": "npm run build && npm version patch"
   },
   "repository": "https://github.com/Kuaizi-co/video-snapshot.git",
   "author": "tomieric<tomieric@gmail.com>",
