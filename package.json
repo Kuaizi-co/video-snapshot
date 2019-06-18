@@ -1,5 +1,5 @@
 {
-  "name": "video-snapshot",
+  "name": "@kuaizi/video-snapshot",
   "version": "1.0.3",
   "description": "Get snapshots from a video file in the browser",
   "main": "dist/index.js",
@@ -15,8 +15,8 @@
     "static": "ts-react-toolbox publish",
     "format": "ts-react-toolbox format"
   },
-  "repository": "git@github.com:zzarcon/video-snapshot.git",
-  "author": "Hector Leon Zarco Garcia <hezarco@gmail.com>",
+  "repository": "https://github.com/Kuaizi-co/video-snapshot.git",
+  "author": "tomieric<tomieric@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "@atlaskit/button": "^7.2.0",
@@ -36,5 +36,8 @@
     "screenshot",
     "capture",
     "image"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }
