@@ -14,14 +14,17 @@
     "lint": "ts-react-toolbox lint",
     "static": "ts-react-toolbox publish",
     "format": "ts-react-toolbox format",
-    "prepublish": "npm run build && npm version patch"
+    "prereleash": "tsc ./src/index.ts --outDir ./dist --lib ES2015,dom",
+    "releash": "npm version patch && npm publish",
+    "analyze": "ts-react-toolbox analyze"
   },
-  "repository": "https://github.com/Kuaizi-co/video-snapshot.git",
+  "repository": "",
   "author": "tomieric<tomieric@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "@atlaskit/button": "^7.2.0",
     "@atlaskit/icon": "^11.1.0",
+    "@types/node": "^12.0.8",
     "ts-react-toolbox": "^0.1.10"
   },
   "engines": {
@@ -30,15 +33,11 @@
   "files": [
     "dist"
   ],
-  "keywords": [
-    "video",
-    "snapshot",
-    "preview",
-    "screenshot",
-    "capture",
-    "image"
-  ],
+  "keywords": [],
   "publishConfig": {
     "access": "public"
+  },
+  "peerDependencies": {
+    "react": "^16.3.0"
   }
 }
