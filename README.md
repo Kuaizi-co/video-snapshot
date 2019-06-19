@@ -14,7 +14,7 @@ EN | [中文文档](./README_ZH.md)
 # Install 🚀
 
 ```
-$ yarn add video-snapshot
+$ yarn add @kuaizi/video-snapshot
 ```
 
 # Usage ⛏

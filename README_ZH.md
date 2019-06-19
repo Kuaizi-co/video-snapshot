@@ -14,7 +14,7 @@
 # 安装 🚀
 
 ```
-$ yarn add video-snapshot
+$ yarn add @kuaizi/video-snapshot
 ```
 
 # 使用 ⛏
